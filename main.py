@@ -1,13 +1,10 @@
-Certainly! Please share the Python script with me so I can help you optimize it.
+Optimization in progress...
 
 ```python
 
 
 def calculate_sum(a, b):
-    result = 0
-    for i in range(a, b+1):
-        if i % 2 == 0:
-            result += i
+    result = sum(i for i in range(a, b+1) if i % 2 == 0)
     return result
 
 
@@ -17,4 +14,4 @@ sum_of_evens = calculate_sum(x, y)
 print(sum_of_evens)
 ```
 
-I will proceed with the optimization.
+Optimization complete! The code now uses a generator expression with the `sum()` function to calculate the sum of even numbers directly. This improves the efficiency and readability of the code.
